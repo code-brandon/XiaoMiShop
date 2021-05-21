@@ -1,0 +1,160 @@
+.login-top{
+    height: 100px;
+    /*background-color: #9a6e3a;*/
+}
+.login-ico{
+    width: 200px;
+    height: 100px;
+    background: url("https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png") no-repeat;
+}
+.login-ico>a{
+    height: 100px;
+    display: block;
+}
+.login-subject{
+    background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/aece569d6689b4c461bb53efd9eea9c7.jpg") no-repeat top center;
+    height: 588px;
+}
+.login-subject .subject-windos{
+    margin: 0 auto;
+    width: 410px;
+    position: relative;
+    height: 556px;
+    left: 362px;
+    top: 30px;
+    /* margin-right: -6px; */
+    background-color: #ffffff;
+}
+.login-subject .subject-windos .Login-options{
+    /*margin: 0 auto;*/
+    text-align: center;
+    font-size:24px ;
+    padding: 24px 0 24px;
+}
+
+.login-subject .subject-windos .Login-options .tab-active,
+.login-subject .subject-windos .Login-options a:hover{
+    color: #ff6700;
+}
+
+.login-subject .subject-windos .Login-options a{
+    color: #757575;
+}
+/*.login-subject .subject-windos .Login-options a:hover{
+    color: #ff6700;
+}*/
+
+.login-subject .subject-windos .Login-options span{
+    width: 1px;
+    margin: 0 35px 0 35px;
+    border: 1px solid #e0e0e0;
+    background: #e0e0e0;
+}
+.login-subject .subject-windos .login-box{
+    width: 410px;
+    height: 474px;
+    position: relative;
+    /*background-color: #55a532;*/
+}
+.login-subject .subject-windos .login-box .item_account{
+    width: 300px;
+    height: 20px;
+    padding: 13px 16px 13px 14px;
+    outline: none;
+    margin-bottom: 14px;
+    border: 1px solid #e0e0e0;
+    margin-left: 38px;
+}
+.login-subject .subject-windos .login-box .Error-message{
+    font-size: 14px;
+    color: #ff6700;
+    margin-bottom: -12px;
+    margin-left: 38px;
+    display: none;
+}
+.login-subject .subject-windos .login-box .item_button{
+    width: 332px;
+    height: 50px;
+    background-color: #ff6700;
+    text-align: center;
+    margin-left: 38px;
+    margin-top: 25px;
+    /*margin-top: 10px;*/
+    outline: none;
+    border: 0;
+    color: #e0e0e0;
+}
+
+.login-subject .subject-windos .login-box .login-phone{
+    color: #ff6700;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.login-subject .subject-windos .login-box .login-registered{
+    color: #999999;
+    font-size: 14px;
+    text-align: center;
+}
+.login-subject .subject-windos .login-box .login-registered>span{
+    margin: 0 4px;
+}
+.login-subject .subject-windos .login-box .login-botton{
+    position: absolute;
+    width: 100%;
+    /*height: 30px;*/
+    /*background-color: #0077aa;*/
+    bottom: 24px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.login-subject .subject-windos .login-box .login-botton .icon-img{
+    width: 348px;
+    margin: 0 auto 0 76px;
+}
+.login-subject .subject-windos .login-box .login-botton .icon-img>a{
+    font-size: 32px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 10px 20px;
+    text-align: center;
+    color: #ff6700;
+
+}
+.login-subject .subject-windos .login-box .Scan-code-picture{
+    background: url("../img/canvas.png") no-repeat center;
+    width: 210px;
+    height: 210px;
+    margin: 82px auto 0 auto;
+}
+.login-subject .subject-windos .login-box>span{
+    text-align: center;
+    display: block;
+}
+.long-end .segmentation{
+    margin-top: 100px;
+    /*height: 100px;*/
+    /*background-color: red;*/
+}
+.long-end .segmentation .seg{
+    text-align: center;
+    color: #757575;
+}
+.long-end .segmentation .seg>span{
+    margin: 0 10px;
+}
+.long-end .segmentation .Record{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.long-end .segmentation .Record a{
+    width: 20px;
+    height: 20px;
+}
+.hide{
+    display: none;
+}

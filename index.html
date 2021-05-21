@@ -1,0 +1,1976 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <title>仿小米商城</title>
+        <!--网页描述-->
+        <meta name="description" content="小米官网直营小米公司旗下所有产品，包括小米手机系列小米10 Pro 、小米9、小米MIX Alpha，Redmi 红米系列Redmi 10X、Redmi K30，小米电视、笔记本、米家智能家居等，同时提供小米客户服务及售后支持." />
+        <!--网页检索关键字-->
+        <meta name="keywords" content="小米,redmi,小米10,Redmi 10X,小米MIX Alpha,小米商城" />
+        <!--处理默认样式-->
+        <link rel="stylesheet" href="css/reset.css">
+        <!--公共的css-->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="//at.alicdn.com/t/font_2012993_yft1p4lqm1.css">
+        <!--引入网页标题图标-->
+        <link rel="shortcut icon" href="img/icons/index.ico" type="image/x-icon" />
+        <!--引入jq-->
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <!--导入布局js，共享header和footer-->
+        <script type = "text/javascript" src = "js/include.js"></script>
+    </head>
+    <body>
+    <!--引入头部-->
+    <div id = "header"></div>
+        <!--主体的头部-->
+        <div class="home-hero-container">
+            <div class="container">
+                <!--轮播图-->
+                <div class="Carousel">
+                    <a class="home-Carousel" href="">
+                        <img id="Carousel-img" class="Carousel-img"
+                             src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b7c2e5c62dfcaae720a3cd909c0eae52.jpg?w=2452&h=920"
+                             alt="">
+                    </a>
+                    <!--轮播点-->
+                    <div class="Carousel-point">
+                        <ul id="CarouselPointUl" class="Carousel-point-ul">
+                            <li onclick="Carousel(0)"></li>
+                            <li onclick="Carousel(1)"></li>
+                            <li onclick="Carousel(2)"></li>
+                            <li onclick="Carousel(3)"></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--头部的底部-->
+                <div class="home-hero-sub">
+                    <div class="home-hero-sub-div1">
+                        <ul class="home-hero-sub-ul">
+                            <li><a href=""><em class="iconfont icon-miaosha"></em>
+                                <p>小米秒杀</p></a></li>
+                            <li><a href=""><em class="iconfont icon-qiye"></em>
+                                <p>企业团购</p></a></li>
+                            <li><a href=""><em class="iconfont icon-Fnum"></em>
+                                <p>F码通道</p></a></li>
+                            <li><a href=""><em class="iconfont icon-shoujiqia"></em>
+                                <p>米粉卡</p></a></li>
+                            <li><a href=""><em class="iconfont icon-yijiuhuanxinjiage"></em>
+                                <p>以旧换新</p></a></li>
+                            <li><a href=""><em class="iconfont icon-huafei"></em>
+                                <p>话费充值</p></a></li>
+                        </ul>
+                    </div>
+                    <div class="home-hero-sub-div2">
+                        <ul>
+                            <li><a href=""><img
+                                    src="./img/index_top_K30%20Pro.jpg"
+                                    alt=""></a></li>
+                            <li><a href=""><img
+                                    src="./img/index_top_K30i%205G.jpg"
+                                    alt=""></a></li>
+                            <li><a href=""><img
+                                    src="./img/index_top_shouhuan4.jpg"
+                                    alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--主体的身体-->
+        <div class="home-main">
+            <div class="container">
+                <!--小米秒杀-->
+                <div class="Flash-sale">
+                    <div class="box-hd">
+                        <h2 class="title ">小米闪购</h2>
+                        <div class="swiper-controls">
+                                <span class="swiper-flashsale-prev">
+                                    <i class="iconfont icon-icon-test2"></i>
+                                </span>
+                            <span class="swiper-flashsale-next">
+                                    <i class="iconfont icon-icon-test1"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="box-bd">
+                        <div class="left">
+                            <div class="round"><span>00:00</span> 场</div>
+                            <img src="img/秒购.png" alt="">
+                            <div class="desc">距离结束还有</div>
+                            <div class="countdown">
+                                <span id="Flash_H">08</span>
+                                <i>:</i>
+                                <span id="Flash_M">54</span>
+                                <i>:</i>
+                                <span id="Flash_S">16</span>
+                            </div>
+                        </div>
+
+                        <div class="right ">
+                            <ul id="right-Flash">
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_K30BM.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_shuibei.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_yinxiang.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_K30BM.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_taideng.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_taideng.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_K30BM.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_shuibei.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_yinxiang.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_K30BM.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_taideng.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_taideng.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_taideng.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_K30BM.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_shuibei.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_shuibei.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_yinxiang.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_K30BM.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_taideng.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_taideng.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_K30BM.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_shuibei.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                                <li><a href="">
+                                    <div>
+                                        <div class="thumb">
+                                            <img src="./img/index_yinxiang.jpg"
+                                                 alt="">
+                                        </div>
+                                        <h3 class="title">Redmi K30 5G 6GB+128GB 花影惊鸿</h3>
+                                        <p class="desc">双模5G，120Hz流速屏</p>
+                                        <p class="price">
+                                            <span>1599</span>元
+                                            <del>2299元</del>
+                                        </p>
+                                    </div>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--图片分割栏-->
+                <div class="home-image-box">
+                    <a href="">
+                        <img src="./img/index_img-box.jpg">
+                    </a>
+                </div>
+                <!--手机-->
+                <div class="cellular-phone home-brick-box">
+                    <div class="home-box-hd">
+                        <h2 class="title">手机</h2>
+                        <div class="more">
+                            <a class="link" href="">
+                                查看全部
+                                <i class="iconfont icon-icon-test1"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-bd">
+                        <div class="row">
+                            <div class="left">
+                                <ul>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <img src="./img/index_MIX%20Alpha.jpg"
+                                                 alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right home-lattice">
+                                <ul class="brick-list">
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <div class="thumb">
+                                                <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                     alt="">
+                                            </div>
+                                            <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                            <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                            <p class="price"><span>3799</span>元</p>
+                                        </a>
+                                    </li>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <div class="thumb">
+                                                <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                     alt="">
+                                            </div>
+                                            <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                            <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                            <p class="price"><span>3799</span>元</p>
+                                        </a>
+                                    </li>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <div class="thumb">
+                                                <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                     alt="">
+                                            </div>
+                                            <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                            <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                            <p class="price"><span>3799</span>元</p>
+                                        </a>
+                                    </li>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <div class="thumb">
+                                                <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                     alt="">
+                                            </div>
+                                            <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                            <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                            <p class="price"><span>3799</span>元</p>
+                                        </a>
+                                    </li>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <div class="thumb">
+                                                <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                     alt="">
+                                            </div>
+                                            <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                            <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                            <p class="price"><span>3799</span>元</p>
+                                        </a>
+                                    </li>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <div class="thumb">
+                                                <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                     alt="">
+                                            </div>
+                                            <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                            <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                            <p class="price"><span>3799</span>元</p>
+                                        </a>
+                                    </li>
+                                    <li class="home-brick-item home-8gezi">
+                                        <a href="">
+                                            <div class="thumb">
+                                                <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                     alt="">
+                                            </div>
+                                            <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                            <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                            <p class="price"><span>3799</span>元</p>
+                                        </a>
+                                    </li>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <div class="thumb">
+                                                <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                     alt="">
+                                            </div>
+                                            <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                            <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                            <p class="price"><span>3799</span>元</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--图片分割栏-->
+                <div class="home-image-box">
+                    <a href="">
+                        <img src="./img/index_img-box.jpg">
+                    </a>
+                </div>
+                <!--家电-->
+                <div class="Home-appliances Home-array home-brick-box">
+                    <div class="home-box-hd">
+                        <h2 class="title">家电</h2>
+                        <div class="more">
+                            <ul>
+                                <li class="tab-active">热门</li>
+                                <li class="">电视影音</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box-bd">
+                        <div class="row">
+                            <div class="left">
+                                <ul>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <img src="./img/index_Redmi%20X65.jpg"
+                                                 alt="">
+                                        </a>
+                                    </li>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <img src="./img/index_4A.jpg"
+                                                 alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right home-lattice">
+                                <div class="">
+                                    <ul class="brick-list">
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item home-8gezi">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="At-the-end">
+                                            <!--<a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"> <span>3799</span>元</p>
+                                            </a>-->
+                                            <ul>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <div class="thumb">
+                                                            <img src="./img/index_Air%2013.3%202019.jpg"
+                                                                 alt="">
+                                                        </div>
+                                                        <h3 class="title">Air 13.3" 2019款</h3>
+                                                        <p class="price"><span>5699</span>元起</p>
+                                                    </a>
+                                                </li>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <img width="234px" height="143px" src="img/浏览更多热门.png" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="hide">
+                                    <ul class="brick-list">
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item home-8gezi">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="At-the-end">
+                                            <!--<a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"> <span>2729</span>元</p>
+                                            </a>-->
+                                            <ul>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <div class="thumb">
+                                                            <img src="./img/index_bh65.jpg"
+                                                                 alt="">
+                                                        </div>
+                                                        <h3 class="title">小米壁画电视 65英寸</h3>
+                                                        <p class="price"><span>6999</span>元</p>
+                                                    </a>
+                                                </li>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <img width="234px" height="143px" src="img/浏览更多电视影音.png" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--图片分割栏-->
+                <div class="home-image-box">
+                    <a href="">
+                        <img src="./img/index_img-box.jpg">
+                    </a>
+                </div>
+                <!--智能-->
+                <div class="Home-appliances Home-array home-brick-box">
+                    <div class="home-box-hd">
+                        <h2 class="title">智能</h2>
+                        <div class="more">
+                            <ul>
+                                <li class="tab-active">热门</li>
+                                <li class="">安防</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box-bd">
+                        <div class="row">
+                            <div class="left">
+                                <ul>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <img src="./img/index_Redmi%20X65.jpg"
+                                                 alt="">
+                                        </a>
+                                    </li>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <img src="./img/index_4A.jpg"
+                                                 alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right home-lattice">
+                                <div class="">
+                                    <ul class="brick-list">
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item home-8gezi">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="At-the-end">
+                                            <!--<a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"> <span>3799</span>元</p>
+                                            </a>-->
+                                            <ul>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <div class="thumb">
+                                                            <img src="./img/index_Air%2013.3%202019.jpg"
+                                                                 alt="">
+                                                        </div>
+                                                        <h3 class="title">Air 13.3" 2019款</h3>
+                                                        <p class="price"><span>5699</span>元起</p>
+                                                    </a>
+                                                </li>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <img width="234px" height="143px" src="img/浏览更多热门.png" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="hide">
+                                    <ul class="brick-list">
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item home-8gezi">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="At-the-end">
+                                            <!--<a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"> <span>2729</span>元</p>
+                                            </a>-->
+                                            <ul>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <div class="thumb">
+                                                            <img src="./img/index_bh65.jpg"
+                                                                 alt="">
+                                                        </div>
+                                                        <h3 class="title">小米壁画电视 65英寸</h3>
+                                                        <p class="price"><span>6999</span>元</p>
+                                                    </a>
+                                                </li>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <img width="234px" height="143px" src="img/浏览更多电视影音.png" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--图片分割栏-->
+                <div class="home-image-box">
+                    <a href="">
+                        <img src="./img/index_img-box.jpg">
+                    </a>
+                </div>
+                <!--搭配-->
+                <div class="Home-appliances Home-array home-brick-box">
+                    <div class="home-box-hd">
+                        <h2 class="title">搭配</h2>
+                        <div class="more">
+                            <ul>
+                                <li class="tab-active">热门</li>
+                                <li class="">耳机音箱</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box-bd">
+                        <div class="row">
+                            <div class="left">
+                                <ul>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <img src="./img/index_Redmi%20X65.jpg"
+                                                 alt="">
+                                        </a>
+                                    </li>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <img src="./img/index_4A.jpg"
+                                                 alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right home-lattice">
+                                <div class="">
+                                    <ul class="brick-list">
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item home-8gezi">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="At-the-end">
+                                            <!--<a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"> <span>3799</span>元</p>
+                                            </a>-->
+                                            <ul>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <div class="thumb">
+                                                            <img src="./img/index_Air%2013.3%202019.jpg"
+                                                                 alt="">
+                                                        </div>
+                                                        <h3 class="title">Air 13.3" 2019款</h3>
+                                                        <p class="price"><span>5699</span>元起</p>
+                                                    </a>
+                                                </li>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <img width="234px" height="143px" src="img/浏览更多热门.png" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="hide">
+                                    <ul class="brick-list">
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item home-8gezi">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="At-the-end">
+                                            <!--<a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"> <span>2729</span>元</p>
+                                            </a>-->
+                                            <ul>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <div class="thumb">
+                                                            <img src="./img/index_bh65.jpg"
+                                                                 alt="">
+                                                        </div>
+                                                        <h3 class="title">小米壁画电视 65英寸</h3>
+                                                        <p class="price"><span>6999</span>元</p>
+                                                    </a>
+                                                </li>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <img width="234px" height="143px" src="img/浏览更多电视影音.png" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--图片分割栏-->
+                <div class="home-image-box">
+                    <a href="">
+                        <img src="./img/index_img-box.jpg">
+                    </a>
+                </div>
+                <!--配件-->
+                <div class="Home-appliances Home-array home-brick-box">
+                    <div class="home-box-hd">
+                        <h2 class="title">配件</h2>
+                        <div class="more">
+                            <ul>
+                                <li class="tab-active">热门</li>
+                                <li class="">充电器</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box-bd">
+                        <div class="row">
+                            <div class="left">
+                                <ul>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <img src="./img/index_Redmi%20X65.jpg"
+                                                 alt="">
+                                        </a>
+                                    </li>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <img src="./img/index_4A.jpg"
+                                                 alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right home-lattice">
+                                <div class="">
+                                    <ul class="brick-list">
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item home-8gezi">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="At-the-end">
+                                            <!--<a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"> <span>3799</span>元</p>
+                                            </a>-->
+                                            <ul>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <div class="thumb">
+                                                            <img src="./img/index_Air%2013.3%202019.jpg"
+                                                                 alt="">
+                                                        </div>
+                                                        <h3 class="title">Air 13.3" 2019款</h3>
+                                                        <p class="price"><span>5699</span>元起</p>
+                                                    </a>
+                                                </li>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <img width="234px" height="143px" src="img/浏览更多热门.png" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="hide">
+                                    <ul class="brick-list">
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item home-8gezi">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="At-the-end">
+                                            <!--<a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"> <span>2729</span>元</p>
+                                            </a>-->
+                                            <ul>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <div class="thumb">
+                                                            <img src="./img/index_bh65.jpg"
+                                                                 alt="">
+                                                        </div>
+                                                        <h3 class="title">小米壁画电视 65英寸</h3>
+                                                        <p class="price"><span>6999</span>元</p>
+                                                    </a>
+                                                </li>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <img width="234px" height="143px" src="img/浏览更多电视影音.png" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--图片分割栏-->
+                <div class="home-image-box">
+                    <a href="">
+                        <img src="./img/index_img-box.jpg">
+                    </a>
+                </div>
+                <!--周边-->
+                <div class="Home-appliances Home-array home-brick-box">
+                    <div class="home-box-hd">
+                        <h2 class="title">周边</h2>
+                        <div class="more">
+                            <ul>
+                                <li class="tab-active">热门</li>
+                                <li class="">出行</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box-bd">
+                        <div class="row">
+                            <div class="left">
+                                <ul>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <img src="./img/index_Redmi%20X65.jpg"
+                                                 alt="">
+                                        </a>
+                                    </li>
+                                    <li class="home-brick-item">
+                                        <a href="">
+                                            <img src="./img/index_4A.jpg"
+                                                 alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right home-lattice">
+                                <div class="">
+                                    <ul class="brick-list">
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item home-8gezi">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"><span>3799</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="At-the-end">
+                                            <!--<a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%20K30%20Pro.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi K30 Pro 变焦版</h3>
+                                                <p class="desc">双模5G，骁龙865，弹出全面屏</p>
+                                                <p class="price"> <span>3799</span>元</p>
+                                            </a>-->
+                                            <ul>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <div class="thumb">
+                                                            <img src="./img/index_Air%2013.3%202019.jpg"
+                                                                 alt="">
+                                                        </div>
+                                                        <h3 class="title">Air 13.3" 2019款</h3>
+                                                        <p class="price"><span>5699</span>元起</p>
+                                                    </a>
+                                                </li>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <img width="234px" height="143px" src="img/浏览更多热门.png" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="hide">
+                                    <ul class="brick-list">
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="home-brick-item home-8gezi">
+                                            <a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"><span>2729</span>元</p>
+                                            </a>
+                                        </li>
+                                        <li class="At-the-end">
+                                            <!--<a href="">
+                                                <div class="thumb">
+                                                    <img src="./img/index_Redmi%2070c.jpg"
+                                                         alt="">
+                                                </div>
+                                                <h3 class="title">Redmi 红米电视 70英寸</h3>
+                                                <p class="desc">70英寸震撼巨屏，4K画质，细腻如真</p>
+                                                <p class="price"> <span>2729</span>元</p>
+                                            </a>-->
+                                            <ul>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <div class="thumb">
+                                                            <img src="./img/index_bh65.jpg"
+                                                                 alt="">
+                                                        </div>
+                                                        <h3 class="title">小米壁画电视 65英寸</h3>
+                                                        <p class="price"><span>6999</span>元</p>
+                                                    </a>
+                                                </li>
+                                                <li class="home-brick-item">
+                                                    <a href="">
+                                                        <img width="234px" height="143px" src="img/浏览更多电视影音.png" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--图片分割栏-->
+                <div class="home-image-box">
+                    <a href="">
+                        <img src="./img/index_img-box.jpg">
+                    </a>
+                </div>
+                <!--视频-->
+                <div class="Home-video Home-array home-brick-box">
+                    <div class="home-box-hd">
+                        <h2 class="title">视频</h2>
+                        <div class="more">
+                            <a class="link" href="">
+                                查看全部
+                                <i class="iconfont icon-icon-test1"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-bd">
+                        <div class="row">
+                            <div class=" home-lattice">
+                                <div class="">
+                                    <ul class="brick-list">
+                                        <li class="home-brick-item"><a href="javascript: void(0);">
+                                            <div class="thumb">
+                                                <img src="./img/void_1.jpg" alt="">
+                                                <span>
+                                                    <i class="iconfont icon-bofang "></i>
+                                                </span>
+                                            </div>
+                                            <h3 class="title">Redmi 10X系列发布会</h3>
+                                            <p class="desc">Redmi 10X系列发布会</p>
+                                        </a></li>
+                                        <li class="home-brick-item"><a href="javascript: void(0);">
+                                            <div class="thumb">
+                                                <img src="./img/void_2.jpg" alt="">
+                                                <span>
+                                                    <i class="iconfont icon-bofang "></i>
+                                                </span>
+                                            </div>
+                                            <h3 class="title">小米10 青春版 发布会</h3>
+                                            <p class="desc"></p>
+                                        </a></li>
+                                        <li class="home-brick-item"><a href="javascript: void(0);">
+                                            <div class="thumb">
+                                                <img src="./img/void_3.jpg" alt="">
+                                                <span>
+                                                    <i class="iconfont icon-bofang "></i>
+                                                </span>
+                                            </div>
+                                            <h3 class="title">小米10 8K手机拍大片</h3>
+                                            <p class="desc"></p>
+                                        </a></li>
+                                        <li class="home-brick-item"><a href="javascript: void(0);">
+                                            <div class="thumb">
+                                                <img src="./img/void_4.jpg" alt="">
+                                                <span>
+                                                    <i class="iconfont icon-bofang "></i>
+                                                </span>
+                                            </div>
+                                            <h3 class="title">小米10发布会</h3>
+                                            <p class="desc"></p>
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div></div>
+            </div>
+            </div>
+        </div>
+        <!--引入主体的底部-->
+        <div id = "footer"></div>
+
+        <!--视频窗口-->
+        <div class="Vide-div hide">
+            <div class="Vide-window">
+                <div class="Vide-top">
+                    <h3>小米10 青春版 发布会</h3>
+                    <a>
+                        <i class="iconfont icon-guanbi"></i>
+                    </a>
+                </div>
+                <div class="Vide-body">
+                    <video id="video-video">
+                        <!--视频-->
+                        <source id="video-video-url" src="vide/mov_bbb.mp4" type="video/mp4" />
+                        <!--预览图-->
+                        <!--<source src="https://www.w3school.com.cn/example/html5/mov_bbb.ogg" type="video/ogg" />-->
+                        Your browser does not support HTML5 video.
+                    </video>
+                    <!--视频控制栏-->
+                    <div class="Control-menu hide" >
+                        <div class="Played-ing"></div>
+                        <div class ="Played-left">
+                            <!--播放按钮onclick="playPause()"-->
+                            <div  class="Played-Button iconfont icon-play"></div>
+                            <div class="Played-time">
+                                <span>00:00</span>/<span>00:00</span>
+                            </div>
+                        </div>
+                        <div class ="Played-right">
+                            <div class="Played-speaker iconfont icon-laba"></div>
+                            <div class="Played-volume">
+                                <!--音量进度条-->
+                                    <div class="volume-strip">
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                            </div>
+                            <div class="full-screen iconfont icon-quanping"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--引入js-->
+        <script src="js/style.js"></script>
+        <script src="js/PlayVideo.js"></script>
+    </body>
+</html>

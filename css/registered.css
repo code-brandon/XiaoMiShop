@@ -1,0 +1,142 @@
+body{
+    background-color:#f9f9f9 ;
+
+}
+.subject .subject-body{
+    width: 854px;
+    height: 563px;
+    background-color: #ffffff;
+    margin: 40px auto 0;
+    position: relative;
+}
+.subject .subject-body .subject-log{
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 40px;
+    background: #ff6700 url("../img/mi-logo.png") no-repeat center;
+    /*background-position: ;*/
+}
+.subject .subject-body .Register-Xiaomi-account{
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    color: #333;
+}
+.subject .subject-body .input-registered{
+    width: 332px;
+    height: 248px;
+    margin: 35px auto 0;
+}
+.subject .subject-body .input-registered>span{
+    display: block;
+    /*float: left;*/
+}
+.subject .subject-body .input-registered .inp{
+    width: 275px;
+    height: 40px;
+    float: left;
+    border: 1px solid #d7d7d7;
+    padding-left: 10px;
+}
+.subject .subject-body .input-registered .an1{
+    width: 40px;
+    height: 40px;
+    /*margin-right: 10px;*/
+    float: left;
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid #d7d7d7;
+    color: #d7d7d7;
+}
+.subject .subject-body .input-registered .inp1{
+    width: 230px;
+    height: 40px;
+    float: left;
+    border: 1px solid #d7d7d7;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.subject .subject-body .input-registered .an2{
+    width: 86px;
+    height: 40px;
+    /*background-color: red;*/
+    float: left;
+    border: 1px solid #d7d7d7;
+}
+.subject .subject-body .input-registered .an2>p{
+    float: left;
+    line-height: 40px;
+    padding-left: 15px;
+    color: #6d5585;
+}
+.subject .subject-body .input-registered .an2>i{
+    float: left;
+    line-height: 40px;
+    padding-left: 6px;
+    font-size: 24px;
+    color: #9d9d9d;
+}
+.subject .subject-body .input-registered .prompt{
+    margin-bottom: 15px;
+
+}
+.subject .subject-body .input-registered .prompt1{
+    /*margin: 10px 0px 10px 0px;*/
+    float: left;
+    color: #ff6700;
+}
+.subject .subject-body .input-registered .prompt1>i{
+    width: 16px;
+    height: 16px;
+    display: block;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    background-color: red;
+    margin-right: 5px;
+    color: #9d9d9d;
+}
+.subject .subject-body .input-registered .item_button{
+    width: 330px;
+    height: 35px;
+    background-color: #ff6700;
+    text-align: center;
+    outline: none;
+    border: 0;
+    color: #fff;
+    margin: 20px 0 30px 0;
+    float: left;
+}
+.subject .subject-body .subject-body-botton{
+    position: absolute;
+    bottom: 45px;
+    left: 300px;
+    color: #9d9d9d;
+}
+.subject .subject-body .subject-body-botton a{
+    font-weight: bold;
+    color: #333;
+}
+.subject .long-end .segmentation{
+    margin-top: 72px;
+    /*height: 100px;*/
+    /*background-color: red;*/
+}
+.subject .long-end .segmentation .seg{
+    text-align: center;
+    color: #757575;
+}
+.subject .long-end .segmentation .seg>span{
+    margin: 0 10px;
+}
+.subject .long-end .segmentation .Record{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.subject .long-end .segmentation .Record a{
+    width: 20px;
+    height: 20px;
+}
+
+
