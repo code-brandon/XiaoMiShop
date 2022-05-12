@@ -27,9 +27,8 @@
 
 #### 安装教程
 
-1.  git clone https://gitee.com/zong_zh/XiaoMiShop.git
-2.  j解压
-3.  xxxx
+1.  git clone https://github.com/code-brandon/XiaoMiShop.git
+2.  xxxx
 
 #### 使用说明
 
